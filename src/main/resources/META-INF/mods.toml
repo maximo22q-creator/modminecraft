@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+[[mods]]
+modId="toolmerge"
+version="${file.jarVersion}"
+displayName="Tool Merge"
+authors="modminecraft"
+description='''
+Combine two matching swords, pickaxes or axes to upgrade their material.
+Wood -> Stone -> Iron -> Diamond -> Netherite. Netherite is the final tier.
+Crafting produces a fresh tool; enchantments and custom names are not preserved.
+'''
+
+[[dependencies.toolmerge]]
+modId="forge"
+mandatory=true
+versionRange="[36.2.0,37)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.toolmerge]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.5,1.17)"
+ordering="NONE"
+side="BOTH"
